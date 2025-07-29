@@ -96,6 +96,8 @@ export default function RootLayout({
         <meta name="mobile-web-app-capable" content="yes" />
         <link rel="apple-touch-icon" href="/images/lynphyl-logo.jpg" />
         <link rel="shortcut icon" href="/images/lynphyl-logo.jpg" />
+        <meta property="og:image" content="/images/lynphyl-logo.jpg" />
+        <meta name="twitter:image" content="/images/lynphyl-logo.jpg" />
       </head>
       <body className="font-sans antialiased">
         {children}
