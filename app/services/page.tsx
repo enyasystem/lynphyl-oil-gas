@@ -34,7 +34,7 @@ export default function ServicesPage() {
         "Quality Assurance & Testing",
       ],
       link: "/services/fuel-supply",
-      image: "/placeholder.svg?width=600&height=400",
+      image: "https://images.unsplash.com/photo-1464983953574-0892a716854b?auto=format&fit=crop&w=600&q=80",
     },
     {
       icon: <Truck className="h-12 w-12 text-brand-green" />,
@@ -50,7 +50,7 @@ export default function ServicesPage() {
         "Inventory Management",
       ],
       link: "/services/logistics-transport",
-      image: "/placeholder.svg?width=600&height=400",
+      image: "https://images.unsplash.com/photo-1464983953574-0892a716854b?auto=format&fit=crop&w=600&q=80",
     },
     {
       icon: <Wrench className="h-12 w-12 text-brand-green" />,
@@ -66,7 +66,7 @@ export default function ServicesPage() {
         "Compliance Consulting",
       ],
       link: "/services/technical-services",
-      image: "/placeholder.svg?width=600&height=400",
+      image: "https://images.unsplash.com/photo-1464983953574-0892a716854b?auto=format&fit=crop&w=600&q=80",
     },
   ]
 
@@ -121,7 +121,7 @@ export default function ServicesPage() {
         <div className="container mx-auto px-4 sm:px-6 lg:px-8 py-4">
           <div className="flex items-center justify-between">
             <Link href="/" className="flex items-center gap-3">
-              <Image src="/placeholder.svg?width=40&height=40" width={40} height={40} alt="Lynphyl Oil & Gas Logo" />
+              <Image src="/images/lynphyl-logo.jpg" width={40} height={40} alt="Lynphyl Oil & Gas Logo" />
               <span className="font-bold text-xl text-brand-blue-dark">Lynphyl O&G</span>
             </Link>
             <Button asChild variant="outline" className="flex items-center gap-2 bg-transparent">

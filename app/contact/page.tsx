@@ -133,7 +133,7 @@ export default function ContactPage() {
         <div className="container mx-auto px-4 sm:px-6 lg:px-8 py-4">
           <div className="flex items-center justify-between">
             <Link href="/" className="flex items-center gap-3">
-              <Image src="/placeholder.svg?width=40&height=40" width={40} height={40} alt="Lynphyl Oil & Gas Logo" />
+              <Image src="https://upload.wikimedia.org/wikipedia/commons/6/6b/Logo_Oil_and_Gas.png" width={40} height={40} alt="Lynphyl Oil & Gas Logo" />
               <span className="font-bold text-xl text-brand-blue-dark">Lynphyl O&G</span>
             </Link>
             <Button asChild variant="outline" className="flex items-center gap-2 bg-transparent">

@@ -1,7 +1,8 @@
 "use client"
 
 import { useState, useEffect } from "react"
-import { Phone, MessageCircle, Calculator, Home, Menu } from "lucide-react"
+import { Phone, Calculator, Home, Menu } from "lucide-react"
+import { FaWhatsapp } from "react-icons/fa"
 import { Sheet, SheetContent } from "@/components/ui/sheet"
 import { Button } from "@/components/ui/button"
 import Image from "next/image"
@@ -57,7 +58,7 @@ export function MobileBottomNav() {
       primary: true,
     },
     {
-      icon: <MessageCircle className="h-5 w-5" />,
+      icon: <FaWhatsapp className="h-5 w-5 text-green-500" />,
       label: "WhatsApp",
       href: "https://wa.me/2348012345678",
       action: null,
@@ -127,7 +128,7 @@ export function MobileBottomNav() {
           <div className="flex flex-col h-full bg-brand-blue-dark text-white">
             <div className="p-6 border-b border-brand-blue">
               <div className="flex items-center gap-3">
-                <Image src="/placeholder.svg?width=40&height=40" width={40} height={40} alt="Lynphyl Oil & Gas Logo" />
+                <Image src="https://upload.wikimedia.org/wikipedia/commons/6/6b/Logo_Oil_and_Gas.png" width={40} height={40} alt="Lynphyl Oil & Gas Logo" />
                 <span className="font-bold text-xl">Lynphyl O&G</span>
               </div>
             </div>
@@ -163,7 +164,7 @@ export function MobileBottomNav() {
                   className="w-full border-white text-white hover:bg-white hover:text-brand-blue-dark text-lg py-6 rounded-full bg-transparent"
                 >
                   <a href="https://wa.me/2348012345678" target="_blank" rel="noopener noreferrer">
-                    <MessageCircle className="h-5 w-5 mr-2" />
+                    <FaWhatsapp className="h-5 w-5 mr-2 text-green-500" />
                     WhatsApp Us
                   </a>
                 </Button>

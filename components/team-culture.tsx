@@ -19,7 +19,7 @@ export function TeamCulture() {
       education: "MBA, University of Lagos",
       specialization: "Strategic Planning & Business Development",
       quote: "Our vision is to be Nigeria's most trusted indigenous petroleum marketing company.",
-      image: "/placeholder.svg?width=300&height=400",
+      image: "https://randomuser.me/api/portraits/men/45.jpg",
       achievements: ["Led 300% company growth", "Expanded to all 36 states", "Built strategic partnerships"],
     },
     {
@@ -29,7 +29,7 @@ export function TeamCulture() {
       education: "B.Eng Petroleum Engineering, ABU",
       specialization: "Supply Chain & Fleet Management",
       quote: "Excellence in operations is the foundation of customer trust and satisfaction.",
-      image: "/placeholder.svg?width=300&height=400",
+      image: "https://randomuser.me/api/portraits/women/65.jpg",
       achievements: ["Implemented GPS tracking", "Achieved 98% on-time delivery", "Built safety protocols"],
     },
     {
@@ -39,7 +39,7 @@ export function TeamCulture() {
       education: "B.Sc Business Administration, UI",
       specialization: "Client Relations & Market Expansion",
       quote: "Every client partnership is built on trust, reliability, and mutual success.",
-      image: "/placeholder.svg?width=300&height=400",
+      image: "https://randomuser.me/api/portraits/men/33.jpg",
       achievements: ["500+ successful deliveries", "Built client network", "Expanded market reach"],
     },
   ]
@@ -52,25 +52,25 @@ export function TeamCulture() {
         {
           name: "Ibrahim Hassan",
           role: "Fleet Manager",
-          image: "/placeholder.svg?width=200&height=250",
+          image: "https://randomuser.me/api/portraits/men/46.jpg",
           experience: "8 years",
         },
         {
           name: "Grace Okafor",
           role: "Quality Control Specialist",
-          image: "/placeholder.svg?width=200&height=250",
+          image: "https://randomuser.me/api/portraits/women/47.jpg",
           experience: "6 years",
         },
         {
           name: "Musa Garba",
           role: "Safety Coordinator",
-          image: "/placeholder.svg?width=200&height=250",
+          image: "https://randomuser.me/api/portraits/men/48.jpg",
           experience: "10 years",
         },
         {
           name: "Blessing Eze",
           role: "Logistics Coordinator",
-          image: "/placeholder.svg?width=200&height=250",
+          image: "https://randomuser.me/api/portraits/women/49.jpg",
           experience: "5 years",
         },
       ],
@@ -82,19 +82,19 @@ export function TeamCulture() {
         {
           name: "Kemi Adebayo",
           role: "Customer Success Manager",
-          image: "/placeholder.svg?width=200&height=250",
+          image: "https://randomuser.me/api/portraits/women/50.jpg",
           experience: "7 years",
         },
         {
           name: "Ahmed Bello",
           role: "Emergency Response Coordinator",
-          image: "/placeholder.svg?width=200&height=250",
+          image: "https://randomuser.me/api/portraits/men/51.jpg",
           experience: "9 years",
         },
         {
           name: "Chioma Nwankwo",
           role: "Client Relations Specialist",
-          image: "/placeholder.svg?width=200&height=250",
+          image: "https://randomuser.me/api/portraits/women/52.jpg",
           experience: "4 years",
         },
       ],
@@ -106,19 +106,19 @@ export function TeamCulture() {
         {
           name: "Olumide Ajayi",
           role: "Senior Technical Engineer",
-          image: "/placeholder.svg?width=200&height=250",
+          image: "https://randomuser.me/api/portraits/men/53.jpg",
           experience: "12 years",
         },
         {
           name: "Aisha Mohammed",
           role: "HSE Specialist",
-          image: "/placeholder.svg?width=200&height=250",
+          image: "https://randomuser.me/api/portraits/men/54.jpg",
           experience: "8 years",
         },
         {
           name: "Emeka Okonkwo",
           role: "Equipment Specialist",
-          image: "/placeholder.svg?width=200&height=250",
+          image: "https://randomuser.me/api/portraits/women/55.jpg",
           experience: "6 years",
         },
       ],
@@ -162,19 +162,19 @@ export function TeamCulture() {
 
   const workLifeImages = [
     {
-      src: "/placeholder.svg?width=400&height=300",
+      src: "https://images.unsplash.com/photo-1464983953574-0892a716854b?auto=format&fit=crop&w=400&q=80",
       caption: "Strategic planning session at our Lekki headquarters",
     },
     {
-      src: "/placeholder.svg?width=400&height=300",
+      src: "https://images.unsplash.com/photo-1506744038136-46273834b3fb?auto=format&fit=crop&w=400&q=80",
       caption: "Daily safety briefing with our professional drivers",
     },
     {
-      src: "/placeholder.svg?width=400&height=300",
+      src: "https://images.unsplash.com/photo-1519125323398-675f0ddb6308?auto=format&fit=crop&w=400&q=80",
       caption: "Celebrating another successful quarter with the team",
     },
     {
-      src: "/placeholder.svg?width=400&height=300",
+      src: "https://images.unsplash.com/photo-1521737852567-6949f3f9f2b5?auto=format&fit=crop&w=400&q=80",
       caption: "Continuous learning through professional development programs",
     },
   ]

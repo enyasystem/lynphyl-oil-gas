@@ -84,7 +84,7 @@ export function InteractiveMap() {
               {/* Actual Nigeria Map */}
               <div className="relative w-full max-w-2xl">
                 <Image
-                  src="/images/nigeria-map.png"
+                  src="images/nigeria-map.png"
                   alt="Nigeria Map with States"
                   width={800}
                   height={600}
