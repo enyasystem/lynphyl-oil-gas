@@ -29,7 +29,7 @@ export const metadata: Metadata = {
     siteName: "Lynphyl Oil & Gas Limited",
     images: [
       {
-        url: "/images/lynphyl-logo.jpg",
+        url: "https://lynphyloilandgas.com/images/lynphyl-logo.jpg",
         width: 1200,
         height: 630,
         alt: "Lynphyl Oil & Gas Limited - Powering Nigeria",
@@ -43,7 +43,7 @@ export const metadata: Metadata = {
     title: "Lynphyl Oil & Gas Limited | Powering Nigeria",
     description:
       "Indigenous Nigerian oil and gas company specializing in petroleum marketing, logistics, and technical services across all 36 states.",
-    images: ["/images/lynphyl-logo.jpg"],
+    images: ["https://lynphyloilandgas.com/images/lynphyl-logo.jpg"],
     creator: "@lynphyloilgas",
   },
   robots: {
