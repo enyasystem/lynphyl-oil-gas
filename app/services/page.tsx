@@ -134,8 +134,8 @@ export default function ServicesPage() {
 
       {/* Hero Section */}
       <section className="relative py-20 bg-gradient-to-r from-brand-blue-dark to-brand-blue text-white">
-        <div className="container mx-auto px-4 sm:px-6 lg:px-8">
-          <div className="max-w-4xl">
+        <div className="container mx-auto px-4 sm:px-6 lg:px-8 flex flex-col md:flex-row items-center gap-12">
+          <div className="max-w-2xl flex-1">
             <h1 className="text-4xl md:text-5xl font-bold mb-6">Comprehensive Energy Solutions</h1>
             <p className="text-xl text-gray-200 mb-8">
               From fuel supply to logistics and technical services, we provide end-to-end solutions that power Nigeria's
@@ -154,6 +154,16 @@ export default function ServicesPage() {
                 <Link href="#quote">Get Custom Quote</Link>
               </Button>
             </div>
+          </div>
+          <div className="flex-1 flex justify-center">
+            <Image
+              src="https://images.unsplash.com/photo-1506744038136-46273834b3fb?auto=format&fit=crop&w=600&q=80"
+              alt="Oil and Gas Industry"
+              width={500}
+              height={350}
+              className="rounded-lg shadow-2xl w-full h-auto object-cover"
+              priority
+            />
           </div>
         </div>
       </section>
