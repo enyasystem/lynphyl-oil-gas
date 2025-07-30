@@ -329,24 +329,19 @@ export default function ServicesPage() {
         <div className="container mx-auto px-4 sm:px-6 lg:px-8 text-center">
           <h2 className="text-3xl md:text-4xl font-bold mb-6">Ready to Get Started?</h2>
           <p className="text-xl text-gray-300 mb-8 max-w-2xl mx-auto">
-            Contact us today to discuss your specific requirements and get a customized solution that meets your
-            business needs.
+            Contact us today to discuss your specific requirements and get a customized solution that meets your business needs.
           </p>
-          <div className="flex flex-col sm:flex-row gap-4 justify-center">
+          <div className="flex flex-col sm:flex-row gap-4 justify-center mb-8">
             <Button asChild size="lg" className="bg-brand-green hover:bg-brand-green/90 text-white">
               <Link href="/#contact">Request Custom Quote</Link>
             </Button>
-            <Button
-              asChild
-              size="lg"
-              variant="outline"
-              className="border-white text-white hover:bg-white hover:text-brand-blue-dark bg-transparent"
-            >
-              <Link href="tel:+2348012345678">
-                <Phone className="h-5 w-5 mr-2" />
-                Call: +234 801 234 5678
-              </Link>
-            </Button>
+          </div>
+          <div className="max-w-xl mx-auto text-left bg-brand-blue p-6 rounded-lg shadow-lg">
+            <h3 className="text-xl font-bold mb-2">Lynphyl Oil &amp; Gas Limited</h3>
+            <p className="mb-1">59A Muritala Eletu way Osapa London, Lekki</p>
+            <p className="mb-1">Lagos, Nigeria</p>
+            <p className="mb-1 font-semibold">Email: <a href="mailto:Info@lynphyloilandgas.com" className="underline">Info@lynphyloilandgas.com</a></p>
+            {/* Phone number will be updated later */}
           </div>
         </div>
       </section>
